@@ -1,0 +1,73 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build cache, and output files
+*.test
+*.out
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.coverprofile
+
+# IDE specific files for JetBrains GoLand
+.idea/
+*.iml
+*.iws
+
+# Vendor directory for dependencies
+/vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Logs
+*.log
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Build directory
+/build/
+
+# Dependency directories (remove the comment if you use go modules)
+# /vendor/
+
+# Go Modules
+go.sum
+go.mod
+
+# Go specific
+*.key
+*.pem
+
+# Dependency directories (remove the comment if you use go modules)
+# /vendor/
+
+# Output of the go coverage tool
+*.coverprofile
+
+# Output of the go tooling
+*.test
+*.out
+
+# Generated files
+*.cgo1.go
+*.cgo2.c
+
+# IDE specific
+.idea/
+*.iml
+
+# GitHub settings
+.github/
+
+# Log files
+*.log
+
+# Static site generated output
+/public/
